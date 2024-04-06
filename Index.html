@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Portfolio Website - Ihejirika C. Paschal</title>
+        <link rel="shortcut icon" type="P-icon" href="DP.png">
+        <link rel="stylesheet" href="Styling.css">    
+        <script src="https://kit.fontawesome.com/745c4db430.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+    <div id = header>
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul  id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="OpenMenu()"></i>
+            </nav>
+            <div class="headerText">
+                <p> FRONTEND DEVELOPER </p>
+                <h1>Hi, I'm <span>Paschal</span> <br>Ihejirika from Nigeria</h1>
+            </div>
+        </div>
+
+    </div>
+    <!------------------------------------- ABOUT ME -------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/AboutMe.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+
+                        I'm Paschal, a skilled web developer and Computer Science graduate. My expertise spans HTML, CSS, JavaScript, Java, Kotlin, and Solidity.I specialize in turning concepts into captivating online experiences by crafting seamless, visually stunning websites and applications tailored to your unique vision.
+                        With a dedication to excellence and a collaborative approach, I'm ready to bring your digital goals to life. Explore my portfolio, and let's create something extraordinary together! </p>
+                        <div class="tabtitles">
+                            <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                            <p class="tablinks"onclick="opentab('education')">Education</p>
+                        </div>
+                         <!----------------------------------- SKILLS--------------------------> 
+                        <div class="tabcontent activetab " id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br> Create Astonishing and responsive Webpages</li>
+                                <li><span>App Development</span><br> Building Android/IOS Apps</li>
+                                <li><span>Smart Contract Development</span><br> Create Smart Contracts</li>
+                                <li><span>Graphic Design</span><br> Create Astonishing Visual content for brands</li>
+                            </ul>
+                        </div>
+                        <!----------------------------------- EXPERIENCE --------------------------> 
+                        <div class="tabcontent" id="experience">
+                            <ul> 
+                                <li><span>2019</span><br> Data Entry Clerk at Belons Computers</li>
+                                <li><span>2020</span><br> Internship at Vandom Media (Graphic Design)</li>
+                                <li><span>2023</span><br> Internship at WebDev Technologies (Web Development) </li>
+                                <li><span>2024</span><br> Payroll Administrator at Mathew Raditz Firm (Excel)</li>
+                            </ul>
+                        </div>
+                         <!----------------------------------- EDUCATION --------------------------> 
+                        <div class="tabcontent" id="education">
+                            <ul> 
+                                <li><span>2019</span><br> Vandom Media (Graphic Designing)</li>
+                                <li><span>2020</span><br> Belons Computers (Use of Computer)</li>
+                                <li><span>2024</span><br> WebDev Technologies (Web Development) </li>
+                                <li><span>2025</span><br> B.sc in Computer Science, Michael Okpara University of Agriculture</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------- services -------------------->
+    <div id="services">
+        <div class="container">
+            <hi class="subtitle">My Services</hi>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Creating, building, and maintaining websites and web applications that run online on a browser.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p> Making software for smartphones and Android tablets for Android Operating system</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-ethereum"></i>
+                    <h2>Smart Contract Development</h2>
+                    <p>Creating, deploying and maintaining smart contracts and associated infrastructure.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Create visual communications such as adverts, branding, publicity materials and magazine layouts. .</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!----------------------------- Portfolio -------------------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="subtitle">My Work</div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Webportfolio.jpg" alt="">
+                    <div class="layout">
+                        <h3>Jamb Website </h3>
+                        <p> Website that allows users to send and rceive messages, chck their
+                            academic result and their CGPA and its a replication of jamb official website
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/AppPortfolio.png" alt="">
+                    <div class="layout">
+                        <h3>Music Player App </h3>
+                        <p> Allows you to stream different music of your choice .
+                            Download it from playstore.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/EtherPortfolio.png" alt="">
+                    <div class="layout">
+                        <h3>Simple Storage Contract </h3>
+                        <p>This contract allows users to store ether, and can allow crowd sourcing. 
+                        </p>
+                        <a href="https://github.com/Bug3-Log/Multi_Simple_Storage_Solidity.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/graphPortfo.jpg" alt="">
+                    <div class="layout">
+                        <h3>Graphic Flier </h3>
+                        <p> This design was made for aprand inorder to extend their marketing strength online.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------------------------------CONTACT -------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Chijinduihejirika4@yahoo.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+2348137532901</p>
+                    <div class="socialicon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://Instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://yahoo.com/"><i class="fa-brands fa-yahoo"></i></a>
+                    </div>
+                    <a href="Document Cv/chijindu cv.docx" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Paschal. Made with <i class="fa-solid fa-heart"></i> by PazTek Hub</p>
+        </div>
+    </div>
+
+
+        <script src="Activity.js"> </script>
+    </body>
+</html>
