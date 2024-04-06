@@ -6,6 +6,6 @@
   
 - Proficient in Solidity and smart contract security.
   
-- Also a Web Developer with a keen eye for user-centric design
+- Also a Web Developer with a keen eye for user-centric designs
 
 - Let's connect and build something extraordinary!
